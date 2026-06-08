@@ -1,0 +1,54 @@
+[
+    {
+        "MaSach": "BK00001",
+        "TenSach": "Toán học đại cương",
+        "TacGia": "Nguyễn Văn A",
+        "TheLoai": "Khoa học",
+        "Nam": 2020,
+        "SoLuong": 10,
+        "NguoiThem": "Librarian One",
+        "NgayThem": "15/3/2026"
+    },
+    {
+        "MaSach": "BK00002",
+        "TenSach": "Văn học Việt Nam",
+        "TacGia": "Trần Thị B",
+        "TheLoai": "Văn học",
+        "Nam": 2018,
+        "SoLuong": 5,
+        "NguoiThem": "Librarian Two",
+        "NgayThem": "15/3/2026"
+    },
+    {
+        "MaSach": "BK00003",
+        "TenSach": "Lịch sử thế giới",
+        "TacGia": "Lê Văn C",
+        "TheLoai": "Lịch sử",
+        "Nam": 2019,
+        "SoLuong": 8,
+        "NguoiThem": "Librarian Three",
+        "NgayThem": "15/3/2026"
+    },
+    {
+        "MaSach": "BK00004",
+        "TenSach": "Công nghệ thông tin",
+        "TacGia": "Phạm Thị D",
+        "TheLoai": "Công nghệ",
+        "Nam": 2021,
+        "SoLuong": 12,
+        "NguoiThem": "Librarian Four",
+        "NgayThem": "15/3/2026"
+    },
+    {
+        "MaSach": "BK00005",
+        "TenSach": "Sách khác",
+        "TacGia": "Hoàng Văn E",
+        "TheLoai": "Khác",
+        "Nam": 2022,
+        "SoLuong": 3,
+        "NguoiThem": "Librarian Five",
+        "NgayThem": "15/3/2026"
+    }
+]
+
+

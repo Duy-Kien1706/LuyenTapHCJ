@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ôn Luyện Giữa Kì Đề Ca 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <!-- <link rel="stylesheet" href="./css/bootstrap.min.css"> -->
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <button class="btn btn-primary w-100">Thêm sách</button>
+            <button class="btn btn-primary w-100">Quản lí thư viện</button>
+            <h1 class="text-center m-4">Quản lí thư viện</h1>
+            <label for="searchName" class="mb-3"><b>Tìm kiếm theo tên hoặc mã sách<b></label><br>
+            <input type="text" id="searchName" class="w-100 form-control">
+
+
+            <table class="table  table-bordered mt-3 text-center align-middle">
+                <thead class="table-secondary">
+                    <tr>
+                        <th>Mã Sách</th>
+                        <th>Tên Sách</th>
+                        <th>Tác Giả</th>
+                        <th>Thể Loại</th>
+                        <th>Năm</th>
+                        <th>Số lượng</th>
+                        <th>Người thêm</th>
+                        <th>Ngày thêm</th>
+                        <th>Thao tác</th>
+                    </tr>
+                </thead>
+
+                <tbody id = "tableData">
+                    
+                </tbody>
+            </table>
+
+
+            <p>Tổng số sách</p>
+            <p>Khoa học: </p>
+            <p>Văn học: </p>
+            <p>Lịch Sử: </p>
+            <p>Công Nghệ: </p>
+            <p>Khác: </p>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<!-- <script src="./js/bootstrap.bundle.min.js"></script> -->
+
+</html>
