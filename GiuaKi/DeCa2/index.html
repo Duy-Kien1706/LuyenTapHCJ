@@ -13,12 +13,56 @@
 <body>
     <div class="container-fluid">
         <div class="container">
-            <button class="btn btn-primary w-100">Thêm sách</button>
+            <button class="btn btn-primary w-100" id="btnMoForm">Thêm sách</button>
             <button class="btn btn-primary w-100">Quản lí thư viện</button>
             <h1 class="text-center m-4">Quản lí thư viện</h1>
             <label for="searchName" class="mb-3"><b>Tìm kiếm theo tên hoặc mã sách<b></label><br>
             <input type="text" id="searchName" class="w-100 form-control">
 
+
+
+            <div id="khuVucForm" class="card p-4 m-4" style="display: none;">
+                <h3>Thêm Sách Mới</h3>
+                <form id="formThemSach">
+                    <div class="mb-3">
+                        <label class="form-label">Mã Sách</label>
+                        <input type="text" id="txtMaSach" name="maSach" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Tên Sách</label>
+                        <input type="text" id="txtTenSach" name="tenSach" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Tác Giả</label>
+                        <input type="text" id="txtTacGia" name="tacGia" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Thể loại</label>
+                        <input type="text" id="txtTheLoai" name="theLoai" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Năm</label>
+                        <input type="number" id="Nam" name="nam" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Số Lượng</label>
+                        <input type="number" id="txtSoLuong" name="soLuong" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Người thêm</label>
+                        <input type="text" id="txtNguoiThem" name="nguoiThem" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Ngày thêm</label>
+                        <input type="date" id="ngayThem" name="ngayThem" class="form-control">
+                    </div>
+
+                    <div id="thongBaoValidation" class="fw-bold mb-3"></div>
+
+                    <button type="submit" class="btn btn-success">Xác nhận thêm</button>
+                    <button type="button" id="btnHuyForm" class="btn btn-secondary">Hủy</button>
+                </form>
+            </div>
 
             <table class="table  table-bordered mt-3 text-center align-middle">
                 <thead class="table-secondary">
@@ -35,23 +79,24 @@
                     </tr>
                 </thead>
 
-                <tbody id = "tableData">
-                    
+                <tbody id="tableData">
+
                 </tbody>
             </table>
 
 
-            <p>Tổng số sách</p>
-            <p>Khoa học: </p>
-            <p>Văn học: </p>
-            <p>Lịch Sử: </p>
-            <p>Công Nghệ: </p>
-            <p>Khác: </p>
+            <div id="thongKe">
+
+            </div>
         </div>
     </div>
 </body>
 <script src="main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+
+
 <!-- <script src="./js/bootstrap.bundle.min.js"></script> -->
 
 </html>
