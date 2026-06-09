@@ -1,0 +1,26 @@
+[
+  {
+    "STT": 1,
+    "Manager": "Chase Hammond",
+    "Address": "2429 Timbercrest Road, Juneau, Alaska",
+    "LastUpdate": "15 February 2024 9:57"
+  },
+  {
+    "STT": 2,
+    "Manager": "Henry Shillingford",
+    "Address": "2713 Court Street, Saint Charles, Missouri",
+    "LastUpdate": "15 February 2024 9:59"
+  },
+  {
+    "STT": 3,
+    "Manager": "Piers Russell",
+    "Address": "3117 Frosty Lane, Elmira, New York",
+    "LastUpdate": "15 February 2024 9:50"
+  },
+  {
+    "STT": 4,
+    "Manager": "Ernest Robertson",
+    "Address": "971 Quilly Lane, Dublin, Ohio",
+    "LastUpdate": "15 February 2024 9:44"
+  }
+]
